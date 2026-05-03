@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Amor em Brinco | Maria Letícia Piercing</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+<style>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(to bottom, #fff5f7, #ffe3ea);
+    color: #333;
+}
+
+/* HEADER */
+header {
+    background: linear-gradient(135deg, #ff4d6d, #ff8fa3);
+    color: white;
+    padding: 60px 20px;
+}
+
+/* HERO */
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    max-width: 1000px;
+    margin: auto;
+    flex-wrap: wrap;
+}
+
+/* IMAGEM */
+.hero-img img {
+    width: 260px;
+    height: 260px;
+    border-radius: 50%;
+    border: 6px solid white;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+}
+
+/* TEXTO */
+.hero-text {
+    max-width: 400px;
+}
+
+.hero-text h1 {
+    font-size: 28px;
+}
+
+.slogan {
+    font-weight: 600;
+    margin: 8px 0;
+}
+
+.sub {
+    font-size: 14px;
+    opacity: 0.9;
+}
+
+/* BOTÕES */
+.botoes {
+    margin-top: 20px;
+}
+
+.btn {
+    display: inline-block;
+    margin: 5px;
+    padding: 12px 18px;
+    border-radius: 30px;
+    text-decoration: none;
+    font-weight: 600;
+    transition: 0.3s;
+}
+
+.whats {
+    background: #25D366;
+    color: white;
+}
+
+.insta {
+    background: #E1306C;
+    color: white;
+}
+
+.btn:hover {
+    transform: scale(1.05);
+}
+
+/* SEÇÕES */
+section {
+    max-width: 900px;
+    margin: 25px auto;
+    background: white;
+    padding: 40px 20px;
+    border-radius: 15px;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.05);
+}
+
+h2 {
+    color: #ff4d6d;
+    margin-bottom: 15px;
+}
+
+/* SERVIÇOS */
+.servicos {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 12px;
+}
+
+.card {
+    background: #fff;
+    padding: 15px;
+    border-radius: 12px;
+    text-align: center;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.08);
+}
+
+/* DEPOIMENTOS */
+.depoimento {
+    background: #fff5f7;
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+
+/* GALERIA */
+.galeria {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
+
+.galeria img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+/* WHATS FIXO */
+.whatsapp-fixo {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background: #25D366;
+    color: white;
+    padding: 15px 18px;
+    border-radius: 50px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* FOOTER */
+footer {
+    text-align: center;
+    padding: 20px;
+    font-size: 14px;
+}
+
+/* RESPONSIVO */
+@media (max-width: 700px) {
+    .hero {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .hero-img img {
+        width: 180px;
+        height: 180px;
+    }
+
+    .servicos {
+        grid-template-columns: 1fr;
+    }
+
+    .galeria {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <div class="hero">
+
+        <!-- FOTO / LOGO -->
+        <div class="hero-img">
+            <img src="./img/ChatGPT Image 2 de mai. de 2026, 21_52_55.png" alt="Logo">
+        </div>
+
+        <!-- TEXTO -->
+        <div class="hero-text">
+            <h1>Maria Letícia Piercing</h1>
+            <p class="slogan">Amor em Brinco ❤️</p>
+            <p class="sub">Furo humanizado com segurança e carinho</p>
+
+            <div class="botoes">
+                <a class="btn whats" href="https://wa.me/5586995543600">Agendar pelo WhatsApp</a>
+                <a class="btn insta" href="#">Ver Instagram</a>
+            </div>
+        </div>
+
+    </div>
+</header>
+
+<section>
+    <h2>Sobre mim</h2>
+    <p>
+        Enfermeira formada, especializada em furo de orelha humanizado.
+        Atendimento seguro, com materiais esterilizados e foco total no conforto do cliente.
+    </p>
+</section>
+
+<section>
+    <h2>Serviços</h2>
+    <div class="servicos">
+        <div class="card">Furo de lóbulo</div>
+        <div class="card">Segundo furo</div>
+        <div class="card">Terceiro furo</div>
+        <div class="card">Hélix</div>
+        <div class="card">Trágus</div>
+        <div class="card">Conch</div>
+    </div>
+</section>
+
+<section>
+    <h2>Depoimentos</h2>
+    <div class="depoimento">"Atendimento perfeito, super cuidadosa!" ⭐⭐⭐⭐⭐</div>
+    <div class="depoimento">"Minha filha nem chorou, recomendo demais!" ⭐⭐⭐⭐⭐</div>
+</section>
+
+<section>
+    <h2>Resultados</h2>
+    <div class="galeria">
+        <img src="foto1.jpg">
+        <img src="foto2.jpg">
+        <img src="foto3.jpg">
+    </div>
+</section>
+
+<a class="whatsapp-fixo" href="https://wa.me/5599999999999">
+    WhatsApp
+</a>
+
+<footer>
+    © 2026 Amor em Brinco | Maria Letícia Piercing
+</footer>
+
+</body>
+</html>
